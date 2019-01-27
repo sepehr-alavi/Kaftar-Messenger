@@ -14,7 +14,7 @@ public class Main {
     private final String user = "postgres";
     private final String password = "Sa13466431100";
     private static Connection conn = null;
-    private static String activeUser= null;
+    private static String activeUser= null ;
 
 
     /*ACCESS*/
