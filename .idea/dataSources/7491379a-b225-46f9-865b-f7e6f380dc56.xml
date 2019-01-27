@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="postgres@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.1">
+    <root id="1"/>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>12365</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="5" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_temp_1">
+      <ObjectId>11804</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11805</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="information_schema">
+      <ObjectId>12070</ObjectId>
+    </schema>
+    <sequence id="9" parent="3" name="access_id_seq">
+      <ObjectId>17122</ObjectId>
+      <StateNumber>967</StateNumber>
+    </sequence>
+    <sequence id="10" parent="3" name="broadcast_id_seq">
+      <ObjectId>17251</ObjectId>
+      <StateNumber>1389</StateNumber>
+    </sequence>
+    <sequence id="11" parent="3" name="channel_id_seq">
+      <ObjectId>17113</ObjectId>
+      <StateNumber>955</StateNumber>
+    </sequence>
+    <sequence id="12" parent="3" name="conversation_id_seq">
+      <ObjectId>17110</ObjectId>
+      <StateNumber>952</StateNumber>
+    </sequence>
+    <sequence id="13" parent="3" name="device_id_seq">
+      <ObjectId>17107</ObjectId>
+      <StateNumber>949</StateNumber>
+    </sequence>
+    <sequence id="14" parent="3" name="message_id_seq">
+      <ObjectId>17104</ObjectId>
+      <StateNumber>946</StateNumber>
+    </sequence>
+    <object-type id="15" parent="3" name="conversation_type">
+      <ObjectId>16947</ObjectId>
+      <StateNumber>795</StateNumber>
+      <SubKind>enum</SubKind>
+      <SubCategory>enum</SubCategory>
+    </object-type>
+    <table id="16" parent="3" name="access">
+      <ObjectId>16987</ObjectId>
+      <StateNumber>1070</StateNumber>
+    </table>
+    <table id="17" parent="3" name="block_list">
+      <ObjectId>17057</ObjectId>
+      <StateNumber>1067</StateNumber>
+    </table>
+    <table id="18" parent="3" name="broadcast">
+      <ObjectId>17040</ObjectId>
+      <StateNumber>1026</StateNumber>
+    </table>
+    <table id="19" parent="3" name="channel">
+      <ObjectId>17012</ObjectId>
+      <StateNumber>1063</StateNumber>
+    </table>
+    <table id="20" parent="3" name="conversation">
+      <ObjectId>16931</ObjectId>
+      <StateNumber>1108</StateNumber>
+    </table>
+    <table id="21" parent="3" name="device">
+      <ObjectId>16998</ObjectId>
+      <StateNumber>812</StateNumber>
+    </table>
+    <table id="22" parent="3" name="member">
+      <ObjectId>17027</ObjectId>
+      <StateNumber>1053</StateNumber>
+    </table>
+    <table id="23" parent="3" name="message">
+      <ObjectId>16967</ObjectId>
+      <StateNumber>1050</StateNumber>
+    </table>
+    <table id="24" parent="3" name="participant">
+      <ObjectId>16951</ObjectId>
+      <StateNumber>1046</StateNumber>
+    </table>
+    <table id="25" parent="3" name="user">
+      <ObjectId>16924</ObjectId>
+      <StateNumber>1090</StateNumber>
+    </table>
+  </database-model>
+</dataSource>
